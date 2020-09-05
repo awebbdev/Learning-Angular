@@ -4,14 +4,14 @@ import { FormsModule } from '@angular/forms';
 
 
 import { AppComponent } from './app.component';
-import { LogComponent } from './log/log.component';
-import { SecretComponent } from './secret/secret.component'
+import { CockpitComponent } from './cockpit/cockpit.component';
+import { ServerElementComponent } from './server-element/server-element.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LogComponent,
-    SecretComponent
+    CockpitComponent,
+    ServerElementComponent
   ],
   imports: [
     BrowserModule,
